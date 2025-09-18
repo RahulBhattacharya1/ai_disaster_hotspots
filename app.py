@@ -20,7 +20,7 @@ st.caption("Colab + GitHub + Streamlit (no local setup)")
 # 1) Data loading
 # ----------------------------
 DEFAULT_LOCAL_PATH = "data/nasa_disaster_dataset.csv"
-raw_url_hint = "https://raw.githubusercontent.com/<user>/<repo>/<branch>/data/nasa_disaster_dataset.csv"
+raw_url_hint = "https://raw.githubusercontent.com/RahulBhattacharya1/ai_disaster_hotspots/refs/heads/main/data/nasa_disaster_dataset.csv"
 
 st.sidebar.header("Data Source")
 use_repo_file = st.sidebar.radio(
